@@ -1,0 +1,46 @@
+{
+  "name": "revenuecat-server",
+  "version": "1.0.0",
+  "description": "Lightweight server-side SDK for the RevenueCat v2 API. Entitlement checks, offerings, packages — works with any backend (Node, Deno, Bun).",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src"
+  ],
+  "scripts": {
+    "test": "node tests/client.test.js"
+  },
+  "keywords": [
+    "revenuecat",
+    "subscriptions",
+    "entitlements",
+    "iap",
+    "in-app-purchase",
+    "server",
+    "backend",
+    "paywall"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/revenuecat-server"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/revenuecat-server/issues"
+  },
+  "homepage": "https://github.com/yourusername/revenuecat-server#readme",
+  "sideEffects": false
+}
