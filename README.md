@@ -211,3 +211,7 @@ pnpm test
 # or
 yarn test
 ```
+
+## License & Credits
+
+MIT License. If you use, fork, or build upon this project, **credits to [@despia-native](https://github.com/despia-native) are required** (e.g. in your README, about section, or attribution).
