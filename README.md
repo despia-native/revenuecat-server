@@ -1,5 +1,9 @@
 # revenuecat-server
 
+> ### Despia Integration
+>
+> This repository provides an integration for Despia applications. Check the current [Despia documentation](https://docs.despia.com) to determine whether your project uses **Despia Convert**, **DSX Native**, or both.
+
 A lightweight server-side SDK for the [RevenueCat v2 REST API](https://www.revenuecat.com/docs/api-v2). Makes entitlement checks and offering/package management simple — so you can follow security best practices without wrestling with webhooks or complex API calls.
 
 **Works with:** Node.js 18+, Deno, Bun — and any backend (Express, Fastify, Hono, Next.js API routes, Lambda, etc.). Zero dependencies.
